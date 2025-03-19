@@ -24,13 +24,13 @@ This package contains a component - `RefreshableScrollView`  - that enables this
 This component is distrubuted as a **Swift package**. Just add this URL to your package list:
 
 ```text
-https://github.com/globulus/swiftui-pull-to-refresh
+https://github.com/MJ-BEN/SwiftUIPullToRefresh
 ```
 
 You can also use **CocoaPods**:
 
 ```ruby
-pod 'SwiftUI-Pull-To-Refresh', '~> 1.1.9'
+pod 'SwiftUIPullToRefresh', '~> 1.2.0'
 ```
 
 ## Sample usage
@@ -135,6 +135,7 @@ Check out [this recipe](https://swiftuirecipes.com/blog/pull-to-refresh-with-swi
 
 ## Changelog
 
+* 1.2.0 - 修改模块命名规则，从SwiftUI_Pull_To_Refresh改为SwiftUIPullToRefresh，避免Xcode16下出现包名判定与SwiftUCore产生奇怪冲突的问题.
 * 1.1.9 - Reworked haptic feedback, added haptic feedback as optional.
 * 1.1.8 - Fixed crash when doing two pulls quickly in succession.
 * 1.1.7 - Updated haptic feedback. Increased Swift version for Podspec.
